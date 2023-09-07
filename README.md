@@ -3,8 +3,16 @@
 Desafio Módulo Docker
 
 Imagem no Docker Hub:
-<a href="https://hub.docker.com/r/jpcti/go-fullcycle" target="_blank" rel="noreferrer noopener">Link do repositório</a>
+[`Link do repositório`](https://hub.docker.com/r/jpcti/go-fullcycle)
+
+- Para baixar
 
 ```shell
-docker run jpcti/go-fullcycle
+docker pull jpcti/go-fullcycle
+```
+
+- Para rodar o container
+
+```shell
+docker run --rm jpcti/go-fullcycle
 ```
